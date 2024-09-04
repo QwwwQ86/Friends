@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  body {
+  background-color: rgb(4, 7, 14);
+  }
+  .cart img, .cart2 img {
+    width: 400px;
+    height: 450px;
+    border-radius: 60px;
+    border: 2px solid rgb(56, 244, 9);
+    box-shadow: 1px 1px 10px rgb(56, 244, 9) ;
+  }
+  .cart img:hover, .cart2 img:hover {
+    box-shadow: 1px 1px 10px rgb(56, 244, 9), 1px 1px 30px rgb(56, 244, 9),
+    1px 1px 50px rgb(56, 244, 9),1px 1px 70px rgb(56, 244, 9);
+    transform: scale(1.1);
+  }
+  .head h1 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 50px;
+    text-shadow:1px 1px 10px rgb(56, 244, 9) ;
+  }
+  
+  
+  .cart {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 30px;
+  }
+  
+  .cart2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 30px;
+  }
+  .friends {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+    background-color: rgb(7, 6, 6);
+    height: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 30px;
+    border: 2px solid rgb(56, 244, 9);
+    box-shadow: 1px 1px 10px rgb(56, 244, 9);
+   margin-bottom: 20px;
+  }
+  
+    
+  a {
+    text-decoration: none;
+  }
+  .friends p {
+    color: #fff;
+  font-size: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  }
+    .friends:hover {
+    box-shadow: 1px 1px 100px rgb(56, 244, 9);
+  transform: scale(1.1);
+  transform: rotateX(7deg) translateY(-6px);
+  }
+  .red  {
+    border: 1px solid red;
+    border-radius: 100%;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+  }
+  .blue  {
+    border: 1px solid blue;
+    border-radius: 100%;
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+  }
+  .yellow  {
+    border: 1px solid yellow;
+    border-radius: 100%;
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+  }
